@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("images/rainx.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.container{
+  margin: 0;
+  height:100vh;
+  background-image: url("images/rain5.png");
+    animation: rain .3s linear infinite;
+
+
+
+}
+
+button{
+  position: absolute;
+  top:350px;
+  left: 620px;
+  padding:5px;
+  font-size:2rem;
+  border-radius:5%;
+  color:#000;
+  background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+@keyframes rain {
+  0%{
+    background-position:0% 0%;
+  }
+  100%{
+    background-position:5% 100%;
+  }
+
+}
+
+h1{
+  font-size: 3rem;
+}
+.fab{
+  margin-right: 50px;
+
+}
+.social-sites{
+  position: relative;
+
+  display:flex;
+  padding-left: 550px;
+  padding-right: 100px;
+
+
+}
+.copyright{
+  padding-bottom: 60px;
+}
+footer{
+position: absolute;
+bottom:0px;
+left: 0;
+right: 0;
+
+}
